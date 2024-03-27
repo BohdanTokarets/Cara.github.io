@@ -116,6 +116,10 @@ button.white{
     transition: 0.2s ;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 body{
     width: 100%;
     overflow-x: hidden;
@@ -133,6 +137,7 @@ body{
     position: sticky;
     top: 0;
     left: 0;
+    overflow-x: hidden;
 }
 
 #navbar{
